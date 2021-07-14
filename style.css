@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/************
+ Header Area
+ ************/
+ header{
+    width: 1350px;
+    height: 565px;
+    background-color: #2d25A0;
+    
+}
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+.header-title{
+    margin-left: 140px;
+    border: 1px solid red;
+}
+.header-title h1{
+    color: #fff;
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 80px;
+    margin: 0;
+
+}
+.header-button{
+    color: #fff;
+    background-color: #E02C6D;
+    width: 170px;
+    height: 45px;
+    padding:10px 25px;
+    border: none;
+    margin-top: 48px;
+
+}
+ .header-image img{
+
+      width: 555px;
+      height: 440px;
+      border: 1px solid red;
+      margin-right: 140px;
+
+
+ }
