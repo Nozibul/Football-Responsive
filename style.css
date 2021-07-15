@@ -221,7 +221,7 @@ h2, h3{
   @media only screen and (max-width:411px){
          /* Header Area */
          header{
-            width: 100%;
+            width: 85%;
               height: 100%; 
          } 
          .header-content{
@@ -236,21 +236,14 @@ h2, h3{
         
         .header-image img{
             width: 90%;
-            overflow: hidden;
             padding-top: 20px;
         }
-       
-        /* footer{
-            display: none;
-        } */
-        /* .ranking{
-            display: none;
-        } */
-         /* .partners-area{
-            display: none;
-        }
-         */
-       .container{
+
+
+                 /******* Main Area ********/
+
+                 /* Players area */
+    .container{
                 width: 100%;
                
       } 
@@ -260,25 +253,18 @@ h2, h3{
           grid-row-gap: 0;
           grid-column-gap: 0;
       }  
-      /* .player{
-          width: 100%;
-          height: 100%;
-      } */
-    /* .player img{
-        width: 100%;
-        height: 100%;
-    } */
-    /* .player p{
-        width: 100%;
-        height: 100%;
-    } */
       
+       /******* Ranking arae *******/
         .ranking{
             display: flex;
             flex-direction: column;
             align-items: center;
             
         }  
+        .rank-content h1 {
+            text-align: center;
+        }
+        
         .team h2 {
             display: none;
         }
@@ -286,20 +272,18 @@ h2, h3{
         h3{
             margin-left: 45px;
         }
+
+        /******** Partners ********/
         .partners{
             display: grid;
             grid-template-columns: repeat(1, 1fr);
         }
         
-        /* .partners img{
-
-            width: 80%;
-            height: 80%;
-            padding:10px;
-        }  */
-        /* .footer-area{
-            width: 100%;
-        } */
+        
+        /********* Footer Area *********/
+      .footer-area{
+            width: 85%;
+        } 
         .footer-area img{
             width: 70%;
         }
