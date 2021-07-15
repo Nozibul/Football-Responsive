@@ -219,9 +219,11 @@ h2, h3{
                                Responsive
                         ****************************/
   @media only screen and (max-width:411px){
+    
          /* Header Area */
          header{
-            width: 85%;
+           
+            width: 100%;
               height: 100%; 
          } 
          .header-content{
@@ -235,7 +237,7 @@ h2, h3{
         }
         
         .header-image img{
-            width: 90%;
+            width: 100%;
             padding-top: 20px;
         }
 
@@ -282,9 +284,14 @@ h2, h3{
         
         /********* Footer Area *********/
       .footer-area{
-            width: 85%;
+            width: 100%;
         } 
         .footer-area img{
-            width: 70%;
+            width: 100%;
+        }
+        .fab{
+            width: 25px;
+            height: 20px;
+            
         }
  }    
