@@ -3,6 +3,7 @@ body{
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    
 }
 
 /************
@@ -22,6 +23,7 @@ body{
 }
 .header-title{
     margin-left: 140px;
+    /* padding-left: 140px; */
 }
 .header-title h1{
     color: #fff;
@@ -215,6 +217,7 @@ h2, h3{
      
   }
 
+
                         /***************************
                                Responsive
                         ****************************/
@@ -234,6 +237,9 @@ h2, h3{
          }
          .header-title{
             margin-left: 0px;
+        }
+        .header-image img{
+            margin-right: 0px;
         }
         
         .header-image img{
